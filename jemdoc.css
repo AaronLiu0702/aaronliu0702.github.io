@@ -30,8 +30,8 @@ body {
 .experience-item { 
 	display: flex; /* 使用 Flexbox 进行左侧Logo和右侧文字的布局 */ 
 	align-items: center; 
-	margin-top: 20px;
-	margin-bottom: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
 	padding-bottom: 30px; /* 增加底部间距 */ 
 } 
 
