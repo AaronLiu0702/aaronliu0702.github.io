@@ -29,7 +29,7 @@ body {
 /* 每一个工作经历项的容器 */
 .experience-item {
     display: flex; /* 使用 Flexbox 进行左侧Logo和右侧文字的布局 */
-    align-items: flex-start; /* 保持内容顶部对齐 */
+    align-items: center; 
     margin-bottom: 30px;
     padding-bottom: 30px; /* 增加底部间距 */
 }
