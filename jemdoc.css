@@ -26,56 +26,46 @@ body {
     vertical-align: top;
 }
 
-/* 每一个工作经历项的容器 */
-.experience-item {
-    display: flex;
-    align-items: center; /* 垂直居中 */
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-}
+/* 每一个工作经历项的容器 */ 
+.experience-item { 
+	display: flex; /* 使用 Flexbox 进行左侧Logo和右侧文字的布局 */ 
+	align-items: center; 
+	margin-bottom: 30px; 
+	padding-bottom: 30px; /* 增加底部间距 */ 
+} 
 
-/* Logo/图标的容器（固定正方形） */
-.logo-container {
-    width: 100px;
-    height: 100px;
-    margin-right: 30px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* 防止图片溢出 */
-    border-radius: 8px; /* 可选：让图片四角稍微圆润 */
-}
+/* Logo/图标的容器 */ 
+.logo-container { 
+	width: 100px; /* 设定Logo区域的宽度 */ 
+	height: 100px; /* 设定Logo区域的高度 */ 
+	margin-right: 30px; /* Logo和文字之间的间距 */ 
+	flex-shrink: 0; /* 防止Logo区域被压缩 */ 
+	display: flex; justify-content: center; 
+	align-items: center; 
+} 
 
-/* 图像本身：裁剪为正方形且不变形 */
-.logo-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* 裁剪为正方形 */
-}
+/* 图像本身 */ .logo-img { 
+	max-width: 100%; 
+	max-height: 100%; 
+} 
 
-/* 文本内容的容器 */
-.text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* 垂直居中文本相对于图片 */
-    max-width: 600px; /* 防止文字过长挤到图片区域 */
-}
+/* 文本内容的容器 */ .text-content { 
+	padding-top: 10px; /* 稍微下移，微调对齐 */ 
+} 
 
-/* 公司名超链接 */
-.text-content a {
-    font-size: 18px;
-    font-weight: 600;
-    color: #1a73e8;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
 
-/* 职位与时间文本 */
-.details {
-    font-size: 16px;
-    color: #333;
-    margin-top: 0;
+/* 职位或公司名称 */ .company-name { 
+	font-size: 18px; 
+	margin-bottom: 5px; 
+	color: #1a73e8; /* 蓝色链接文字 */ 
+	text-decoration: none; /* 去掉下划线 */ 
+	display: block; font-weight: 600; 
+} 
+
+/* 职位和日期 */ .details { 
+	font-size: 16px; 
+	color: #333; /* 黑色或深灰色文字 */ 
+	margin-top: 0; 
 }
 
 
