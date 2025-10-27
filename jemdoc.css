@@ -44,17 +44,21 @@ body {
 	align-items: center; 
 } 
 
-/* 图像本身 */ .logo-img { 
+/* 图像本身 */ 
+.logo-img { 
 	max-width: 100%; 
 	max-height: 100%; 
 } 
 
-/* 文本内容的容器 */ .text-content { 
+/* 文本内容的容器 */ 
+.text-content { 
 	padding-top: 10px; /* 稍微下移，微调对齐 */ 
+	margin-left: 30px;
 } 
 
 
-/* 职位或公司名称 */ .company-name { 
+/* 职位或公司名称 */ 
+.company-name { 
 	font-size: 18px; 
 	margin-bottom: 5px; 
 	color: #1a73e8; /* 蓝色链接文字 */ 
@@ -62,7 +66,8 @@ body {
 	display: block; font-weight: 600; 
 } 
 
-/* 职位和日期 */ .details { 
+/* 职位和日期 */ 
+.details { 
 	font-size: 16px; 
 	color: #333; /* 黑色或深灰色文字 */ 
 	margin-top: 0; 
