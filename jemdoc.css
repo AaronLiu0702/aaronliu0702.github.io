@@ -26,6 +26,68 @@ body {
     vertical-align: top;
 }
 
+/* 每一个工作经历项的容器 */
+.experience-item {
+    display: flex; /* 使用 Flexbox 进行左侧Logo和右侧文字的布局 */
+    align-items: flex-start; /* 保持内容顶部对齐 */
+    margin-bottom: 30px;
+    padding-bottom: 30px; /* 增加底部间距 */
+}
+
+/* Logo/图标的容器 */
+.logo-container {
+    width: 100px; /* 设定Logo区域的宽度 */
+    height: 100px; /* 设定Logo区域的高度 */
+    margin-right: 30px; /* Logo和文字之间的间距 */
+    flex-shrink: 0; /* 防止Logo区域被压缩 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 图像本身 */
+.logo-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 文本内容的容器 */
+.text-content {
+    padding-top: 10px; /* 稍微下移，微调对齐 */
+}
+
+/* 职位或公司名称 */
+.company-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #1a73e8; /* 蓝色链接文字 */
+    text-decoration: none; /* 去掉下划线 */
+    display: block;
+    font-weight: 600;
+}
+
+/* 职位和日期 */
+.details {
+    font-size: 16px;
+    color: #333; /* 黑色或深灰色文字 */
+    margin-top: 0;
+}
+
+/* 占位符样式（仅用于演示Logo区域） */
+.placeholder-sjt {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 1px solid transparent; 
+}
+
+.placeholder-kargobot {
+    width: 100%;
+    height: 100%;
+    background: #329671; 
+    border-radius: 8px;
+}
+
 #layout-menu td {
 	background: #f4f4f4;
     vertical-align: top;
