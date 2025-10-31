@@ -37,7 +37,7 @@ body {
 
 /* Logo/图标的容器 */ 
 .logo-container { 
-	width: 160px; /* 设定Logo区域的宽度 */ 
+	width: 200px; /* 设定Logo区域的宽度 */ 
 	height: 100px; /* 设定Logo区域的高度 */ 
 	margin-right: 30px; /* Logo和文字之间的间距 */ 
 	flex-shrink: 0; /* 防止Logo区域被压缩 */ 
